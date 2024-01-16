@@ -9,5 +9,5 @@ change file src/config.json: change 127.0.0.1 in "http://127.0.0.1:8080/api" to 
 
 ````shell
 docker build -t react_gomsg .
-docker run -p 3000:3000 react_gomsg
+docker run -p 3000:3000 react_gomsg -d --name react_gomsg
 ````
