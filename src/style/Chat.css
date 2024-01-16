@@ -1,0 +1,49 @@
+.chatInput {
+    color: white;
+    flex: 1;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    background: none;
+}
+
+.chatInput::placeholder {
+    opacity: 0.6;
+}
+
+.chatWindow {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: #1e1e28;
+    position: fixed;
+    width: calc(100% - 20px);
+    bottom: 0px;
+}
+
+.sendButton {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(189deg) brightness(105%) contrast(102%);
+    width: 40px;
+    height: 40px;
+}
+
+.sendButton:hover {
+    background: #c8c8c8;
+    cursor: pointer;
+}
+
+.chatHeader {
+    background-color: #1e1e28;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end; /* Change this line */
+    align-items: center;
+    padding: 0 10px;
+}
+
+.infoButton {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(189deg) brightness(105%) contrast(102%);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
